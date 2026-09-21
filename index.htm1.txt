@@ -1,0 +1,93 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background: #050505;
+        color: #00ff66;
+        font-family: monospace;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .screen {
+        width: 90%;
+        max-width: 700px;
+        border: 1px solid #00ff66;
+        padding: 30px;
+        background: #020202;
+        box-shadow: 0 0 30px rgba(0,255,102,.25);
+    }
+
+    h1 {
+        color: #ff3333;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    #terminal {
+        min-height: 280px;
+        line-height: 1.9;
+        font-size: 16px;
+    }
+
+    .warning {
+        color: #ff3333;
+    }
+
+    .yellow {
+        color: #ffd000;
+    }
+
+    .final {
+        display: none;
+        text-align: center;
+    }
+
+    .final h2 {
+        color: #00ff66;
+        font-size: 32px;
+    }
+
+    button {
+        background: #00ff66;
+        color: #000;
+        border: none;
+        padding: 13px 25px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+</style>
+<div id="main">
+    <h1>⚠️ SYSTEM SECURITY ALERT ⚠️</h1>
+
+    <div id="terminal"></div>
+</div>
+
+<div class="final" id="final">
+    <h2>😂 انضحكت عليك!</h2>
+
+    <p>
+        لا تخاف حبيبي، جهازك وحسابك بخير ❤️
+    </p>
+
+    <p class="yellow">
+        هاي مجرد مزحة من المبرمج أبو صكر 😎
+    </p>
+
+    <p>
+        ما تم اختراق أي حساب، وما تم جمع أي معلومات منك.
+    </p>
+
+    <button onclick="location.reload()">
+        إعادة المقلب 😂
+    </button>
+</div>
